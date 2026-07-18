@@ -1,0 +1,20 @@
+2026-04-30 00:17:23,954 - __main__ - INFO - VK RAG бот запущен
+2026-04-30 00:22:34,657 - rag.pipeline - ERROR - Ошибка индексации: 401 Client Error: Unauthorized for url: https://ai.api.cloud.yandex.net/foundationModels/v1/textEmbedding
+2026-04-30 00:25:48,747 - __main__ - INFO - VK RAG бот запущен
+2026-04-30 00:26:14,934 - rag.embedder - WARNING - 401 with Api-Key header, retrying with Bearer header
+2026-04-30 00:26:15,296 - rag.embedder - ERROR - Embedding request failed: {"error":"The apikey has expired 2026-04-29T19:00:00Z. Now 2026-04-29T19:26:29.162690128Z, which is more than PT10M later","code":16,"message":"The apikey has expired 2026-04-29T19:00:00Z. Now 2026-04-29T19:26:29.162690128Z, which is more than PT10M later","details":[]}
+2026-04-30 00:26:15,296 - rag.pipeline - ERROR - Ошибка индексации: 401 Client Error: Unauthorized for url: https://ai.api.cloud.yandex.net/foundationModels/v1/textEmbedding
+2026-04-30 00:32:06,749 - __main__ - INFO - VK RAG бот запущен
+2026-04-30 00:32:24,974 - rag.pipeline - ERROR - Ошибка индексации: Error in __cdecl faiss::FileIOWriter::FileIOWriter(const char *) at D:\a\faiss-wheels\faiss-wheels\third-party\faiss\faiss\impl\io.cpp:104: Error: 'f' failed: could not open C:\Users\Computer\Desktop\Зерокодер\Промт инженеринг 3.0\Модуль 5\PEr01 Что такое RAG_ как ИИ ищет, а не запоминает\rag_bot\bot_vk_yandex\index.faiss for writing: No such file or directory
+2026-04-30 00:39:08,500 - __main__ - INFO - VK RAG бот запущен
+2026-04-30 00:43:52,482 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 00:48:12,269 - __main__ - INFO - VK RAG бот запущен
+2026-04-30 00:48:32,910 - __main__ - INFO - Загружено 6 частей из целевых файлов: PEr01_common_info.docx, PEr01_FAQ.docx, PEr01_study_plan.docx
+2026-04-30 00:49:54,371 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 00:50:36,602 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 00:51:29,376 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-30 00:58:17,072 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-19 00:15:58,012 - __main__ - INFO - VK RAG бот запущен с системой логирования в logs.db
+2026-07-19 00:22:43,516 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-19 00:22:52,421 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-19 00:25:24,031 - httpx - INFO - HTTP Request: POST https://ai.api.cloud.yandex.net/v1/chat/completions "HTTP/1.1 200 OK"
