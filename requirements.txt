@@ -1,8 +1,0 @@
-vk-api
-openai
-requests
-faiss-cpu>=1.7.0
-numpy
-python-dotenv
-python-docx
-pandas
