@@ -1,0 +1,31 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Секреты
+.env
+
+# Логи и базы данных
+logs.db
+bot.log
+*.log
+
+# Векторный индекс (создается при /ingest)
+index.faiss
+metadata.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ОС
+.DS_Store
+Thumbs.db
